@@ -1,76 +1,99 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Happy Mother's Day</title>
-   <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet"
-<style>
+
+<head>
+  <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet"
+  <title>Mother's Day</title>
+  <style>
+
+
+  body {
+      background-image: url("Mom&I.JPG");
+    font-family: 'Lilita One', cursive;
+    text-decoration-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+  }
   img {
-       width: 300px;
-     }
-
-     header {
-       text-align: center;
-     }
-
-     body {
-       background-image: url("Thing.png");
-       background-size: cover;
-       background-attachment: fixed;
-       font-family: 'Lilita One', cursive;
-       text-decoration-color: white;
-     }
-
-
-
-     .statement {
-       text-align: center;
-       background-color: lightblue;
-       width: 60%;
-       margin: 0 auto;
-       border-radius: 10px;
-       padding: 20px;
-     }
-
-   </style>
- </head>
-
- <body>
-   <main>
-     <header class="clearfix">
-       <img src="Mom.png" alt="cards for humanity"> </img>
-     </header>
-
-       <article class="statement">
-         <h1>Dear Mom</h1>
-         <p>Every journey begins with a spark. It may struggle at first,
-           searching for what it wants, but once it finds it, it will be able
-           to grow and glow into something much more. Soon, all will see
-           this fiery performance and be amazed.
-
-           Every hero’s journey starts somewhere. It doesn’t matter where they start; they
-           just need to start. Not every hero knows what they must do; some must search out
-           their destiny. When they do find what they are destined for, they will begin to
-           excel far more than anyone, even they themselves, thought they would, and even
-           what seems to be the peak of their skill, they will rise. Soon, they will be
-           the talk of the town; everyone will hear of this great person and
-           their achievements, and knowing what they are becoming, they will
-           continue and search out for his skills to be used elsewhere. When
-           they find that place, they will continue to impress those around
-           them and they will make great achievements. They will become known
-           for their great achievements worldwide, but it all starts with a
-           simple spark next to the fuel they need.
-         </p>
+    height: 300px;
+      width: 350px;
+      border-radius: 15px;
+      opacity: .8;
+float: right;
+    }
+    .span-col-2 {
+     grid-column: span 2 / auto;
+     background: #ffffff88;
+       width: 800px;
+         border-radius: 15px;
+           text-align:center;
+}
 
 
 
+body {
+
+text-decoration-color: white;
+}
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+
+    .span-col-2 {
+     grid-column: span 2 / auto;
+     background: #ffffff88;
+       width: 800px;
+         border-radius: 15px;
+           text-align:center;
+}
+    .span-col-3 {
+      grid-column: span 3 / auto;
+      background: #ffffff88;
+      width: 250px;
+      border-radius: 15px;
+        text-align:center;
+    }
+    #title {
+      background:#45678999;
+      color:white;
+      border-radius: 15px;
+      width: 270px;
+      height: 150px;
+      text-align:center;
+      background
+    }
 
 
 
+  }
+  </style>
+</head>
 
+<body>
 
-     </div>
-   </main>
- </body>
+  <div class="grid">
+    <div id= "title"class="span-col-2">
+      <h1> Happy Mother's Day!! </h1>
 
- </html>
+    </div>
+    <div id="image">
+
+    </div>
+
+    <article class="span-col-2">
+
+    <h1>Dear Mom</h1>
+<p> I Hope you have an extra special Mother's Day, I know this is extremely last minute gift, but hopefully you like it.</p>
+<p> This is a <a href="https://www.youtube.com/playlist?list=PLBigQqnDPtUVQY13p1vtV2YGLQcVAl_bT">Link </a> To a corny 80's mix I found. Hopefully you will get a kick out of it.
+    </article>
+    <footer class="span-col-3">
+      <p> Love You </p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
